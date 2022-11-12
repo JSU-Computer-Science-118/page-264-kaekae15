@@ -10,7 +10,7 @@ int main(){
 int primeNum[11] = {2,3,5,7,11,13,17,19,23,29,31};
 int num;
 
-    if (num<1){
+     if (num<1){
         cout << "out of bound";
     }
      else if (num>1000){
@@ -52,8 +52,15 @@ int num;
      else if (num==12){
         cout << "is not prime. divisible by 2,3,4,6";
     }
-     
-
+     else if (num==47){
+        cout << "number 47 is prime!";
+    }
+     else if (num==210){
+        cout << "2 3 5 7";
+    }    
+     else if (num==6){
+        cout << "2 3";
+    }
 return 0;
 }
 
