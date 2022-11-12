@@ -11,10 +11,10 @@ int primeNum[11] = {2,3,5,7,11,13,17,19,23,29,31};
 int num;
 
     if (num<1){
-        cout << "out of bounds";
+        cout << "out of bound";
     }
      else if (num>1000){
-        cout << "out of bounds";
+        cout << "out of bound";
     }
      else if (num==1){
         cout << "not a prime number. only divisible by 1.";
